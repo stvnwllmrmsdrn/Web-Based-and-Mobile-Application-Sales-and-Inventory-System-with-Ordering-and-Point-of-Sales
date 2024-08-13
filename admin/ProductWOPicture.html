@@ -1,0 +1,167 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Product Inventories</title>
+<script defer src ="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+<link
+href="https://fonts.googleapis.com/css2?family=Dejavu sans:wght@300;400;500;600&display=sw
+ap" rel="stylesheet">
+<style>
+/*.page{*/
+/*    .bottom-left{*/
+/*        content: 'Page' counter(page) 'of' counter(pages);*/
+/*    }*/
+/*}*/
+/*}*/
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Dejavu sans', sans-serif;
+}
+.content{
+width: 90%;
+margin: 20px auto;
+border-radius: 5px;
+padding: 10px;
+}
+.header{
+position: relative;
+height: 100px;
+text-align: left;
+margin-top: 3px;
+margin-right: 10px;
+}
+.logo{
+width: 250px;
+ background-color: white; 
+text-align: left;
+padding: 10px;
+}
+.logo img{
+width: 100px;
+
+}
+.title{
+position: fixed;
+top: 0;
+right: 0;
+width: 100%;
+height: 100%;
+text-align: center;
+margin-top: 0px;
+}
+.title h2{
+color: #005eff;
+font-size: 25px;
+margin-top: 0px;
+font-family: 'Dejavu sans', sans-serif;
+}
+h2{
+/*text-align: center;*/
+margin-bottom: 5px;
+margin-top:2px;
+width: 100%;
+font-family: 'Dejavu sans', sans-serif;
+color: #0011ff;
+/*text-align: center;*/
+}
+h6{
+text-align: center;
+font-size: 8px;
+font-family: 'Dejavu sans', sans-serif;
+color: black;
+text-align: center;
+}
+.title span{
+color: var(--text-color);
+font-size: 18px;
+/*margin: 10px auto;*/
+font-family: 'Dejavu sans', sans-serif;
+}
+table{
+/*border-collapse: collapse;*/
+width: 100%;
+}
+table thead{
+border-top: 2px solid #005eff;
+border-bottom: 2px solid #005eff;
+padding: 0px 10px;
+}
+
+table thead th{
+font-size: 12px;
+text-align: left;
+padding: 5px 10px;
+}
+table tbody tr:last-child{
+border-bottom: 1px solid #005eff;
+}
+table tbody td{
+font-size: 8px;
+padding: 3px 5px;
+}
+
+            footer {
+                position: fixed; 
+                bottom: 0cm; 
+                left: 0cm; 
+                right: 0cm;
+                height: 2cm; 
+                /*padding: 10px;*/
+                /*margin-right: 10px;*/
+                /*margin-left: 10px;*/
+                /** Extra personal styles **/
+                /*background-color: #03a9f4;*/
+                /*color: white;*/
+                /*text-align: center;*/
+                margin-left: 12px;
+                margin-right: 12px;
+                line-height: 1.5cm;
+                font-size: 8px;
+            }
+</style>
+
+</head>
+<body>
+<footer>
+<p style ="margin-left:2px; margin-bottom:0px;"><i>Prepared Date: {{date}} / by: Administrator</i></p>
+</footer>
+<!--<footer>-->
+<!--<p style ="float:right; margin-left:2px; margin-bottom:1px;"><i>Prepared by: Administrator</i></p>-->
+<!--</footer>-->
+<!--<footer>-->
+<!--<p style ="margin-left:400px; margin-bottom:1px;"><i>Page </i></p>-->
+<!--</footer>-->
+<div class="content">
+<div class="header">
+<div class="logo">
+<!--<img src="img/favicon.png" width="150" height="70">-->
+</div>
+<div class="title">
+<img src="img/logo-report.PNG" width="350" height="100" margin-top="1px">
+<h2>PRODUCT INVENTORIES</h2>
+</div>
+</div>
+<br><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Product Name</th>
+<th>Supplier Price</th>
+<th>Online Price</th>
+<th>Walk in Price</th>
+<th>Quantity</th>
+<th>Category</th>
+<th>Supplier</th>
+</tr>
+</thead>
+<tbody>
+{{data}}
+</tbody>
+</table>
+</div>
+</body>
+</html>
