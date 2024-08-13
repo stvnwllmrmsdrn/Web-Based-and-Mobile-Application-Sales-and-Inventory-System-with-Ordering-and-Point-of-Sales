@@ -1,7 +1,98 @@
 ![logo](https://github.com/user-attachments/assets/6dc3b37c-63db-40ed-a39e-11bf76cb5063)
 ## SALES AND INVENTORY SYSTEM
+ <a href="https://X.com/stvnwllmrmsdrn"><img src="https://img.shields.io/twitter/follow/stvnwllmrmsdrn30" alt="Follow us on X" title="Follow us on X"></a>
+</p>
 
-## ADMINISTRATOR
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Administrator](#administrator)
+4. [Point of Sales](#pointofsales)
+5. [Ordering](#ordering)
+
+## Introduction
+The Web-Based and Mobile Application Sales and Inventory System can help the business’ sales and inventory tracking for daily, weekly, monthly, and yearly transactions in a much more convenient way. The system brought to the business a much more competitive transaction over their daily business procedure. Sales and inventory systems ensure that high-demand items and quantities are stocked and that the business meets customer demand by monitoring stock levels. One example of a business that monitors sales and inventory is Standly Hardware, which still uses manuals. 
+
+##Installation
+
+## Features
+1. **ADMINISTRATOR**
+   - Dashboard 
+   - Product Management
+     - Barcode
+     - Supplier Price
+     - Online Price
+     - Walk-in Price 
+   - Order Management
+     - Send Message to Customer
+     - Confirm Order o Decline Order if no available product
+     - Print Receipt
+     - View Receipt
+     - Switch View 
+   - Sales
+     - Point of Sales/ Ordering Sales
+     - Point of Sales
+     - Ordering Sales
+   - Supplier
+   - Critical Stocks
+   - Expired Product
+     - Expired
+     - Near to Expired (30 days before expiration)
+   - Return/Refund Product
+     - POS
+     - Ordering 
+   - Website Maintenance
+   - System Maintenance
+     - Size
+     - Color
+     - Discount
+     - Reason of Return Product
+     - Province
+     - City
+     - Shipping Cost
+     - Category of Product
+   - Slider for Website
+   - Services Offers
+   - Frequently Ask Question
+   - Registered Customer thru Online
+   - Users
+     - Cashiers
+     - Administrator
+   - Backup Data
+     
+  
+2. **POINT OF SALES**
+   - POS
+   - Discount for PWD/SENIOR
+   - For Walk-in (Optional) 
+    - Delivery with Shipping fee
+   - Generate Receipt
+   - Stocks
+     - Available Stocks
+     - Critical Stocks
+   - Reprint of Receipt
+   - View all the transaction under your cashier account
+   - Cashier update profile
+
+  
+3. **ORDERING FOR ONLINE CUSTOMER**
+   - Registration
+   - Add to Cart
+   - Download APK
+   - Search Product
+   - Payment Process (3 typer of Payment)
+     - GCASH
+     - CASH ON PICK UP
+     - CASH ON DELIVERY
+   - Customer Dashboard
+     - Manage Profile
+     - Update Shipping and Billing Address
+     - Change Password
+     - History of Orders
+     - Pending Orders
+
+## Administrator
 ```
 FOR ADMINISTRATOR
 USERNAME: admin@mail.com
