@@ -1,20 +1,29 @@
 ![logo](https://github.com/user-attachments/assets/6dc3b37c-63db-40ed-a39e-11bf76cb5063)
-## SALES AND INVENTORY SYSTEM
- <a href="https://X.com/stvnwllmrmsdrn"><img src="https://img.shields.io/twitter/follow/stvnwllmrmsdrn30" alt="Follow us on X" title="Follow us on X"></a>
+## <p align="center"> WEB-BASED AND MOBILE APPLICATION SALES AND INVENTORY SYSTEM </p>
+ <p align="center">
+    <img src="https://skillicons.dev/icons?i=vscode,php,mysql,jquery,js,html,css,bootstrap," />
 </p>
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Administrator](#administrator)
-4. [Point of Sales](#pointofsales)
-5. [Ordering](#ordering)
+2. [Installation](#installation)
+3. [Features](#features)
+4. [Administrator](#administrator)
+5. [Point of Sales](#pointofsales)
+6. [Ordering Website](#orderingwebsite)
+7. [Ordering Mobile Application](#orderingmobileapplication)
 
 ## Introduction
 The Web-Based and Mobile Application Sales and Inventory System can help the business’ sales and inventory tracking for daily, weekly, monthly, and yearly transactions in a much more convenient way. The system brought to the business a much more competitive transaction over their daily business procedure. Sales and inventory systems ensure that high-demand items and quantities are stocked and that the business meets customer demand by monitoring stock levels. One example of a business that monitors sales and inventory is Standly Hardware, which still uses manuals. 
 
-##Installation
+## Installation
+- Download <a href="https://www.apachefriends.org/download.html">XAMPP</a> and Install.
+- Start the Apache and MySQL
+- Click admin in MySQL
+- Create database name 'ecommerceweb.sql'
+- After creating a database name, import the database 'ecommerceweb.sql'
+- Check in the localhost if the database is connected to the system
 
 ## Features
 1. **ADMINISTRATOR**
@@ -131,7 +140,7 @@ PASSWORD: admin
 ![7](https://github.com/user-attachments/assets/5566a119-1e02-400f-8823-cc68af31db8f)
 <p align="center">STOCKS</p>
 
-## ORDERING
+## ORDERING WEBSITE
 ```
 FOR ORDERING
 REGISTER AS CUSTOMER
@@ -157,6 +166,20 @@ REGISTER AS CUSTOMER
 
 ![15](https://github.com/user-attachments/assets/6aaa8b7a-0905-41bd-8bbd-6f66efbc6d7b)
 <p align="center">PROFILE DASHBOARD</p>
+
+## ORDERING MOBILE APPLICATION
+
+![16](https://github.com/user-attachments/assets/28d8eedc-d2fc-4851-b7cf-8df7263c7006)  |  ![17](https://github.com/user-attachments/assets/5d539808-9482-4f26-8100-fa516c5ebdac) 
+
+![18](https://github.com/user-attachments/assets/1b3ca01e-cc85-4edf-9322-01cb889bb53f)  |  ![19](https://github.com/user-attachments/assets/b84915e7-1d6e-4533-845b-12f3c6a98274)
+
+![20](https://github.com/user-attachments/assets/f567c9c8-3697-4b60-84ee-0739abc66773)  |  ![21](https://github.com/user-attachments/assets/455a68ba-831c-4fb2-a5b9-702d2e1f3471)
+
+![22](https://github.com/user-attachments/assets/78ca034b-1f1c-4f64-adad-719be2ca0a67)
+
+
+
+
 
 
 
