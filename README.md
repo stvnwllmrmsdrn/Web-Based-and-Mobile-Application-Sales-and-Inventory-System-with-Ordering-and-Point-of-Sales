@@ -21,8 +21,8 @@ The Web-Based and Mobile Application Sales and Inventory System can help the bus
 - Download <a href="https://www.apachefriends.org/download.html">XAMPP</a> and Install.
 - Start the Apache and MySQL
 - Click admin in MySQL
-- Create database name 'ecommerceweb.sql'
-- After creating a database name, import the database 'ecommerceweb.sql'
+- Create database
+- After creating a database name, import the database
 - Check in the localhost if the database is connected to the system
 
 ## Features
